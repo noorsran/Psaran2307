@@ -1,0 +1,67 @@
+<!-- Name: Parneet Kaur Saran, Student Number: 9022307-->
+<header>
+    <h1>Albert Einstein - The Genius of Modern Physics</h1>
+</header>
+<footer>
+    <p>&copy; 2025 Parneet Kaur Saran</p>
+</footer>
+<main>
+    <section id="biography">
+        <h2>Biography</h2>
+        <blockquote cite="https://www.biography.com/scientist/albert-einstein">
+            Albert Einstein was a theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics.
+        </blockquote>
+    </section>
+
+    <section id="image">
+        <h2>Image</h2>
+        <figure>
+            <img src="einstein.jpg" alt="Albert Einstein in his later years">
+            <figcaption>Albert Einstein in his later years (Public domain image).</figcaption>
+        </figure>
+    </section>
+
+    <section id="quote">
+        <h2>Famous Quote</h2>
+        <q cite="https://www.brainyquote.com/quotes/albert_einstein_132008">
+            "Life is like riding a bicycle. To keep your balance, you must keep moving."
+        </q>
+    </section>
+
+    <section id="video">
+        <h2>Video</h2>
+        <video controls>
+            <source src=" type= "https://youtu.be/LOTlx_UK08I?si=Qw-O3cX_olzogxLA"video/mp4">
+             "https://youtu.be/0zk-NVPYPWk?si=b8SrYAmE7B-UN7Sh"
+        </video>
+    </section>
+</main>
+<aside>
+    <section id="external-links">
+        <h2>External Resources</h2>
+        <ul>
+            <li><a href="https://www.biography.com/scientist/albert-einstein" target="_blank" title="Biography of Albert Einstein">Biography of Albert Einstein</a></li>
+            <li><a href="https://www.nobelprize.org/prizes/physics/1921/einstein/facts/" target="_blank" title="Nobel Prize Information">Nobel Prize in Physics</a></li>
+            <li><a href="https://www.scientificamerican.com/article/the-einstein-problem/" target="_blank" title="Scientific American Article on Einstein">Scientific American on Einstein</a></li>
+        </ul>
+    </section>
+</aside>
+<form>
+    <label for="name" class="form-label">Name:</label>
+    <input type="text" id="name" class="form-control" required placeholder="Parneet Kaur Saran" autofocus>
+
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" id="email" class="form-control" required placeholder="noorsran814@gmail.com">
+
+    <label for="message" class="form-label">Message:</label>
+    <textarea id="message" class="form-control" required placeholder="Write your message"></textarea>
+
+    <label for="topic" class="form-label">Topic:</label>
+    <select id="topic" class="form-control" required>
+        <option value="feedback">Feedback</option>
+        <option value="question">Question</option>
+        <option value="other">Other</option>
+    </select>
+
+    <input type="submit" value="Submit" class="form-control">
+</form>
