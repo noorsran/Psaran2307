@@ -47,21 +47,30 @@
     </section>
 </aside>
 <form>
+    <!-- Name Input -->
     <label for="name" class="form-label">Name:</label>
-    <input type="text" id="name" class="form-control" required placeholder="Parneet Kaur Saran" autofocus>
+    <input type="text" id="name" class="form-control" required placeholder="Enter your name" autofocus>
 
+    <!-- Email Input -->
     <label for="email" class="form-label">Email:</label>
-    <input type="email" id="email" class="form-control" required placeholder="noorsran814@gmail.com">
+    <input type="email" id="email" class="form-control" required placeholder="Enter your email address">
 
+    <!-- Message Textarea -->
     <label for="message" class="form-label">Message:</label>
-    <textarea id="message" class="form-control" required placeholder="Write your message"></textarea>
+    <textarea id="message" class="form-control" required placeholder="Write your message here"></textarea>
 
+    <!-- Topic Select Dropdown -->
     <label for="topic" class="form-label">Topic:</label>
     <select id="topic" class="form-control" required>
-        <option value="feedback">Feedback</option>
+        <option value="feedback" selected>Feedback</option>  <!-- Default selected value -->
         <option value="question">Question</option>
         <option value="other">Other</option>
     </select>
 
+    <!-- Submit Button -->
     <input type="submit" value="Submit" class="form-control">
 </form>
+<meta name="description" content="Learn about Albert Einstein, the famous theoretical physicist who revolutionized modern physics with his theory of relativity.">
+<meta name="keywords" content="Albert Einstein, physics, relativity, Nobel Prize, scientist">
+
+<img src="einstein.jpg" alt="Albert Einstein, the famous theoretical physicist">
