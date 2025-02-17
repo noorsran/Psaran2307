@@ -16,7 +16,7 @@
     <section id="image">
         <h2>Image</h2>
         <figure>
-            <img src="einstein.jpg" alt="Albert Einstein in his later years">
+            <"https://upload.wikimedia.org/wikipedia/commons/3/34/Albert_Einstein_in_later_years.jpg>
             <figcaption>Albert Einstein in his later years (Public domain image).</figcaption>
         </figure>
     </section>
@@ -31,7 +31,7 @@
     <section id="video">
         <h2>Video</h2>
         <video controls>
-            <source src=" type= "https://youtu.be/LOTlx_UK08I?si=Qw-O3cX_olzogxLA"video/mp4">
+            <source src=" type= "https://youtu.be/LOTlx_UK08I?si=Qw-O3cX_olzogxLA video/mp4">
              "https://youtu.be/0zk-NVPYPWk?si=b8SrYAmE7B-UN7Sh"
         </video>
     </section>
